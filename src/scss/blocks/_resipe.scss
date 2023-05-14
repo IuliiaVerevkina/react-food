@@ -1,0 +1,64 @@
+.resipe {
+      &-wrapper {
+            margin-top: 40px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 30px;
+            img {
+                  max-height: 300px;
+                  max-width: 100%;
+                  border-radius: 8px;
+                  display: block;
+                  margin: 0 auto;
+            }
+      }
+      &-descr {
+            span {
+                  color: #252b42;
+                  font-weight: 400;
+                  font-style: italic;
+            }
+            .tag {
+                  font-size: 12px;
+			background-color: #e1e1e1;
+			border-radius: 15px;
+			padding: 3px 10px;
+            }
+      }
+      &-instructions {
+            grid-column: 3/1;
+            font-size: 15px;
+      }
+      &-table {
+            grid-row: 1/3;
+            grid-column: 3;
+            border-collapse: collapse;
+            font-style: italic;
+            font-size: 14px;
+            tr {
+                  border-bottom: 1px solid #c0c0c0;
+			.ingredient {
+				padding: 10px;
+                        text-align: left;
+				color: #676767;
+			}
+			.measure {
+				padding: 10px;
+                        text-align: left;
+				color: #252B42;
+			}
+                  th {
+                        padding: 10px;
+                        text-align: left;
+                  }
+            }
+      }
+      &-video {
+            margin-top: 30px;
+            grid-column: 3/1;
+            iframe {
+                  width: 600px;
+                  height: 300px;
+            }
+      }
+}

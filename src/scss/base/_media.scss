@@ -1,0 +1,117 @@
+@media screen and (max-width: 1200px) {
+      .container {
+            padding: 0 10px;
+      }
+      .main {
+            .list {
+                  .card {
+                        padding: 10px;
+                        img {
+                              height: 85px;
+                        }
+                  }
+            }
+      }
+}
+
+@media screen and (max-width: 768px) {
+      header {
+            .logo {
+                  width: 140px;
+            }
+      }
+      .main {
+            .list {
+                  grid-template-columns: repeat(1, minmax(0, 1fr));
+            }
+      }
+      .resipe {
+            &-wrapper {
+                  margin-top: 20px;
+                  grid-template-columns: repeat(2, minmax(0, 1fr));
+            }
+            &-table {
+                  grid-row: auto;
+                  grid-column: auto;
+            }
+            &-video {
+                  iframe {
+                        width: 100%;
+                  }
+            }
+      }
+      footer {
+            padding: 10px 10px 0px 10px;
+            font-size: 12px;
+            .logo {
+                  width: 70px;
+            }
+      }
+}
+@media screen and (max-width: 576px) {
+      h1 {
+            font-size: 23px;
+      }
+      h2 {
+            font-size: 18px;
+      }
+      header {
+            padding: 0 20px;
+            .logo {
+                  width: 90px;
+            }
+      }
+      .main {
+            &-header {
+                  .down {
+                        margin-top: 20px;
+                  }
+                  .search {
+                        margin-top: 20px;
+                        input {
+                              margin-right: 0;
+                        }
+                  }
+            }
+            .btn {
+                  width: 130px;
+                  display: block;
+                  margin: 15px auto 0 auto;
+                  text-align: center;
+            }
+            .list {
+                  .card {
+                        font-size: 12px;
+                        flex-direction: column;
+                  }
+            }
+      }
+      .resipe {
+            &-wrapper {
+                  gap: 10px;
+            }
+            &-descr {
+                  h2 {
+                        font-size: 12px;
+                  }
+                  font-size: 10px;
+                  .tag {
+                        font-size: 8px;
+                        padding: 1px 3px;
+                  }
+            }
+            &-table {
+                  font-size: 12px;
+                  grid-column: 3/1;
+                  tr {
+                        .ingredient,
+                        .measure {
+                              padding: 5px;
+                        }
+                  }
+            }
+            &-instructions {
+                  font-size: 12px;
+            }
+      }
+}
