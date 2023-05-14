@@ -8,7 +8,7 @@ const Search = (props) => {
 	}
 
 	const onUpdateSearch = (e) => {
-		const value = e.target.value;
+		const value = e.target.value.toLowerCase();
 		setValue(value);
 		props.onUpdateSearch(value);
 	}
