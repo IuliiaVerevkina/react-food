@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/react-food/static/css/main.1f1e1769.css",
-    "main.js": "/react-food/static/js/main.0e626a84.js",
+    "main.js": "/react-food/static/js/main.74af1d2c.js",
     "static/media/bg-main.png": "/react-food/static/media/bg-main.7e1ddaca31926031587f.png",
     "static/media/logo.png": "/react-food/static/media/logo.3d22b198e316c54b082b.png",
     "index.html": "/react-food/index.html",
     "main.1f1e1769.css.map": "/react-food/static/css/main.1f1e1769.css.map",
-    "main.0e626a84.js.map": "/react-food/static/js/main.0e626a84.js.map"
+    "main.74af1d2c.js.map": "/react-food/static/js/main.74af1d2c.js.map"
   },
   "entrypoints": [
     "static/css/main.1f1e1769.css",
-    "static/js/main.0e626a84.js"
+    "static/js/main.74af1d2c.js"
   ]
 }
